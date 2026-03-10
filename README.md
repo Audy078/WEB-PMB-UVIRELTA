@@ -102,6 +102,11 @@ Pmb/
 - `admin/edit_hasil_test.php` → Edit hasil tes
 - `admin/daftar_ulang.php` → Data daftar ulang mahasiswa
 
+## Folder assets 
+- untuk logo dan gambar website
+
+## Folder uploads
+- habis upload foto masuknya ke folder uploads
 ## Database
 Sistem menggunakan database **pmb_uvirelta**.
 
