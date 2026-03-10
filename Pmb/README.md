@@ -22,8 +22,6 @@ Sistem memiliki dua aktor utama, yaitu:
 
 ### Fitur Admin
 - Login admin 
-  username : admin
-  password : admin123
 - Dashboard statistik PMB
 - Melihat total pendaftar
 - Melihat jumlah peserta lulus
@@ -50,11 +48,13 @@ Sistem memiliki dua aktor utama, yaitu:
 
 ### Alur Admin
 1. Admin login
-2. Admin masuk ke dashboard
-3. Admin mengelola soal tes
-4. Admin memantau data pendaftar
-5. Admin memantau hasil tes
-6. Admin memantau data daftar ulang
+   *username* : admin
+   *password* : admin123
+3. Admin masuk ke dashboard
+4. Admin mengelola soal tes
+5. Admin memantau data pendaftar
+6. Admin memantau hasil tes
+7. Admin memantau data daftar ulang
 
 ## Tools yang Digunakan
 - **Frontend:** HTML, CSS, JavaScript
@@ -111,24 +111,4 @@ Tabel utama yang digunakan:
 - `soal`
 - `hasil_test`
 
-## Cara Menjalankan Project
-1. Install **XAMPP**
-2. Jalankan **Apache** dan **MySQL**
-3. Pindahkan folder project ke directory `htdocs`
-4. Import database ke phpMyAdmin menggunakan file `pmb_uvirelta.sql`
-6. Sesuaikan konfigurasi koneksi database pada file `config.php`
-7. Akses project melalui browser:
 
-```bash
-http://localhost/Pmb/
-```
-
-## Konfigurasi Database
-Sesuaikan file `config.php`:
-
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'pmb_uvirelta');
-```
